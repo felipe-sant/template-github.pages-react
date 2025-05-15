@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom"
+import css from "../styles/pages/home.module.css"
 
 function Home() {
     return (
-        <>
-            Hello World! <br />
-            <Link to="/about">Sobre</Link>
-        </>
+        <main className={css.main}>
+            <h1>Hello world</h1>
+        </main>
     )
 }
 
